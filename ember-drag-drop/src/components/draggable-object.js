@@ -7,6 +7,7 @@ import { computed } from '@ember/object';
 import { scheduleOnce, next } from '@ember/runloop';
 import { set } from '@ember/object';
 import { wrapper } from '../utils/proxy-unproxy-objects';
+import '../styles/addon.scss';
 
 export default Component.extend({
   dragCoordinator: service('drag-coordinator'),
